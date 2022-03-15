@@ -1,5 +1,5 @@
 let img;
-let imgW, imgH;
+let paused = true;
 
 function preload() {
   img = loadImage("./image.jpg");
@@ -12,8 +12,22 @@ function setup() {
 }
 
 function draw() {
-  fill(255);
-  lineBlob();
+  if (!paused) {
+    fill(255);
+    lineBlob();
+  }
+}
+
+function togglePause() {
+  const btn = document.getElementById("pauseButton")
+  if (paused) {
+    paused = false;
+    btn.value="PAUSE"
+  } else {
+    paused = true;
+    btn.value="UNPAUSE"
+  }
+  console.log(paused);
 }
 
 function lineBlob() {
