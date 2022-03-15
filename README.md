@@ -4,7 +4,7 @@
 
 A very simple image-blobernizer made for the webbrowser using p5.js
 
-<!-- ![](header.png) -->
+![](header.png)
 
 # [Live demo](https://usvdh.github.io/image-blobernizer/)
 
