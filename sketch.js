@@ -9,6 +9,7 @@ function preload() {
 function setup() {
   console.log(img.height, img.width);
   canvas = createCanvas(img.width, img.height);
+  background(255);
 }
 
 function draw() {
