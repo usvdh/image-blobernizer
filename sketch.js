@@ -46,3 +46,8 @@ function togglePause() {
   }
   console.log(paused);
 }
+
+function saveImg() {
+  const btn = document.getElementById("saveButton")
+  saveCanvas('blobernization');
+}
