@@ -1,6 +1,8 @@
+### Still under development
+
 # image-blobernizer
 
-A very simple audio-visualizer made for the webbrowser using p5.js
+A very simple image-blobernizer made for the webbrowser using p5.js
 
 <!-- ![](header.png) -->
 
@@ -22,7 +24,7 @@ Distributed under the MIT license. See ``LICENSE`` for more information.
 
 ## Contributing
 
-1. Fork it (<https://github.com/usvdh/audio-visualizer/fork>)
+1. Fork it (<https://github.com/usvdh/image-blobernizer/fork>)
 2. Create your feature branch (`git checkout -b feature/feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin feature/feature`)
