@@ -18,7 +18,7 @@ By default, the image-blobernizer will blobernize [this photo by Valentin Lacost
 
 ## Meta
 
-Sen van der Heide – [@USVDH](https://github.com/usvdh)
+Sen van der Heide – [@usvdh](https://github.com/usvdh)
 
 Distributed under the MIT license. See ``LICENSE`` for more information.
 
