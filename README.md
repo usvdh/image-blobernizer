@@ -1,4 +1,4 @@
-### Still under development
+### Still under development, but in a usable state
 
 # image-blobernizer
 
