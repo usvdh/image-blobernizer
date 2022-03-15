@@ -18,18 +18,6 @@ function draw() {
   }
 }
 
-function togglePause() {
-  const btn = document.getElementById("pauseButton")
-  if (paused) {
-    paused = false;
-    btn.value="PAUSE"
-  } else {
-    paused = true;
-    btn.value="UNPAUSE"
-  }
-  console.log(paused);
-}
-
 function lineBlob() {
   let x = floor(random(img.width));
   let y = floor(random(img.height));
@@ -45,4 +33,16 @@ function lineBlob() {
       y + random(-10, 10)
     );
   }
+}
+
+function togglePause() {
+  const btn = document.getElementById("pauseButton")
+  if (paused) {
+    paused = false;
+    btn.value="PAUSE"
+  } else {
+    paused = true;
+    btn.value="UNPAUSE"
+  }
+  console.log(paused);
 }
